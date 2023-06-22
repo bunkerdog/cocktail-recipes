@@ -6,5 +6,31 @@
 }
 
 body {
+    transition: background-color 1.5s;
     background-color: steelblue;
+    display: flexbox;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body:hover{
+    background-color: blueviolet;
+}
+h1{
+    flex-direction: row;
+    
+}
+button{
+    border-radius: 25px;
+    border-style: ridge;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+p::first-letter{
+    color: white;
+}
+h1, footer{
+    color: aliceblue;
 }
