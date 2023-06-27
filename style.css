@@ -7,15 +7,14 @@
 
 body {
     transition: background-color 1.5s;
-    background-color: steelblue;
+    background-color: rgb(48, 117, 61);
     display: flexbox;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
 
 }
-body:hover{
-    background-color: rgb(43, 226, 156);
-}
+
+
 h1{
     flex-direction: row;
     
@@ -31,7 +30,7 @@ button:hover{
 p::first-letter{
     color: white;
 }
-#cocktailpic {
+#lotr-pic {
     height: 400px;
 }
 h1, footer{
