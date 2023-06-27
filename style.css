@@ -27,9 +27,7 @@ button:hover{
     background-color: black;
     color: white;
 }
-p::first-letter{
-    color: white;
-}
+
 #lotr-pic {
     height: 400px;
 }
